@@ -1,0 +1,292 @@
+{
+  "retrieval": [
+    {
+      "chunk_size": 100,
+      "overlap": 0,
+      "chunks": 291,
+      "hit@1": 0.782608695652174,
+      "hit@3": 1.0,
+      "hit@5": 1.0,
+      "mrr": 0.8840579710144927,
+      "n": 23,
+      "misses": []
+    },
+    {
+      "chunk_size": 100,
+      "overlap": 20,
+      "chunks": 353,
+      "hit@1": 0.8695652173913043,
+      "hit@3": 1.0,
+      "hit@5": 1.0,
+      "mrr": 0.9275362318840579,
+      "n": 23,
+      "misses": []
+    },
+    {
+      "chunk_size": 200,
+      "overlap": 0,
+      "chunks": 152,
+      "hit@1": 0.6956521739130435,
+      "hit@3": 0.8695652173913043,
+      "hit@5": 0.9565217391304348,
+      "mrr": 0.7971014492753624,
+      "n": 23,
+      "misses": [
+        {
+          "id": 15,
+          "question": "What are the two RAG formulations that differ in how they use retrieved passages?",
+          "expected": "rag_paper.pdf p.3",
+          "got": [
+            "rag_paper.pdf p.9",
+            "rag_paper.pdf p.5",
+            "rag_paper.pdf p.2"
+          ]
+        },
+        {
+          "id": 17,
+          "question": "How were Wikipedia articles split to build the document index?",
+          "expected": "rag_paper.pdf p.4",
+          "got": [
+            "rag_paper.pdf p.13",
+            "rag_paper.pdf p.2",
+            "rag_paper.pdf p.18"
+          ]
+        },
+        {
+          "id": 18,
+          "question": "Which library and approximation is used to build the MIPS index for retrieval?",
+          "expected": "rag_paper.pdf p.4",
+          "got": [
+            "rag_paper.pdf p.7",
+            "rag_paper.pdf p.3",
+            "rag_paper.pdf p.19"
+          ]
+        }
+      ]
+    },
+    {
+      "chunk_size": 200,
+      "overlap": 40,
+      "chunks": 178,
+      "hit@1": 0.8695652173913043,
+      "hit@3": 0.9130434782608695,
+      "hit@5": 0.9565217391304348,
+      "mrr": 0.9021739130434783,
+      "n": 23,
+      "misses": [
+        {
+          "id": 15,
+          "question": "What are the two RAG formulations that differ in how they use retrieved passages?",
+          "expected": "rag_paper.pdf p.3",
+          "got": [
+            "rag_paper.pdf p.2",
+            "rag_paper.pdf p.5",
+            "rag_paper.pdf p.9"
+          ]
+        },
+        {
+          "id": 18,
+          "question": "Which library and approximation is used to build the MIPS index for retrieval?",
+          "expected": "rag_paper.pdf p.4",
+          "got": [
+            "rag_paper.pdf p.3",
+            "rag_paper.pdf p.7",
+            "rag_paper.pdf p.3"
+          ]
+        }
+      ]
+    },
+    {
+      "chunk_size": 300,
+      "overlap": 0,
+      "chunks": 109,
+      "hit@1": 0.5652173913043478,
+      "hit@3": 0.9130434782608695,
+      "hit@5": 0.9565217391304348,
+      "mrr": 0.7333333333333334,
+      "n": 23,
+      "misses": [
+        {
+          "id": 15,
+          "question": "What are the two RAG formulations that differ in how they use retrieved passages?",
+          "expected": "rag_paper.pdf p.3",
+          "got": [
+            "rag_paper.pdf p.2",
+            "rag_paper.pdf p.5",
+            "rag_paper.pdf p.9"
+          ]
+        },
+        {
+          "id": 18,
+          "question": "Which library and approximation is used to build the MIPS index for retrieval?",
+          "expected": "rag_paper.pdf p.4",
+          "got": [
+            "rag_paper.pdf p.3",
+            "rag_paper.pdf p.9",
+            "rag_paper.pdf p.7"
+          ]
+        }
+      ]
+    },
+    {
+      "chunk_size": 300,
+      "overlap": 60,
+      "chunks": 123,
+      "hit@1": 0.6521739130434783,
+      "hit@3": 0.8260869565217391,
+      "hit@5": 0.8695652173913043,
+      "mrr": 0.75,
+      "n": 23,
+      "misses": [
+        {
+          "id": 15,
+          "question": "What are the two RAG formulations that differ in how they use retrieved passages?",
+          "expected": "rag_paper.pdf p.3",
+          "got": [
+            "rag_paper.pdf p.2",
+            "rag_paper.pdf p.7",
+            "rag_paper.pdf p.9"
+          ]
+        },
+        {
+          "id": 17,
+          "question": "How were Wikipedia articles split to build the document index?",
+          "expected": "rag_paper.pdf p.4",
+          "got": [
+            "rag_paper.pdf p.13",
+            "rag_paper.pdf p.6",
+            "rag_paper.pdf p.5"
+          ]
+        },
+        {
+          "id": 18,
+          "question": "Which library and approximation is used to build the MIPS index for retrieval?",
+          "expected": "rag_paper.pdf p.4",
+          "got": [
+            "rag_paper.pdf p.3",
+            "rag_paper.pdf p.7",
+            "rag_paper.pdf p.19"
+          ]
+        },
+        {
+          "id": 21,
+          "question": "How accurate was RAG on 2016 world leaders when using the 2016 Wikipedia index?",
+          "expected": "rag_paper.pdf p.7",
+          "got": [
+            "rag_paper.pdf p.8",
+            "rag_paper.pdf p.6",
+            "rag_paper.pdf p.5"
+          ]
+        }
+      ]
+    },
+    {
+      "chunk_size": 500,
+      "overlap": 0,
+      "chunks": 70,
+      "hit@1": 0.5217391304347826,
+      "hit@3": 0.8260869565217391,
+      "hit@5": 0.8695652173913043,
+      "mrr": 0.6681159420289855,
+      "n": 23,
+      "misses": [
+        {
+          "id": 15,
+          "question": "What are the two RAG formulations that differ in how they use retrieved passages?",
+          "expected": "rag_paper.pdf p.3",
+          "got": [
+            "rag_paper.pdf p.17",
+            "rag_paper.pdf p.2",
+            "rag_paper.pdf p.7"
+          ]
+        },
+        {
+          "id": 16,
+          "question": "Which pre-trained model serves as the generator and how many parameters does it have?",
+          "expected": "rag_paper.pdf p.3",
+          "got": [
+            "attention.pdf p.7",
+            "rag_paper.pdf p.1",
+            "attention.pdf p.8"
+          ]
+        },
+        {
+          "id": 18,
+          "question": "Which library and approximation is used to build the MIPS index for retrieval?",
+          "expected": "rag_paper.pdf p.4",
+          "got": [
+            "rag_paper.pdf p.3",
+            "rag_paper.pdf p.7",
+            "rag_paper.pdf p.19"
+          ]
+        },
+        {
+          "id": 19,
+          "question": "How often can RAG answer correctly on Natural Questions when the answer is in none of the retrieved documents?",
+          "expected": "rag_paper.pdf p.6",
+          "got": [
+            "rag_paper.pdf p.4",
+            "rag_paper.pdf p.5",
+            "rag_paper.pdf p.19"
+          ]
+        }
+      ]
+    },
+    {
+      "chunk_size": 500,
+      "overlap": 100,
+      "chunks": 78,
+      "hit@1": 0.6086956521739131,
+      "hit@3": 0.8260869565217391,
+      "hit@5": 0.9565217391304348,
+      "mrr": 0.7282608695652174,
+      "n": 23,
+      "misses": [
+        {
+          "id": 11,
+          "question": "What label smoothing value was used during training?",
+          "expected": "attention.pdf p.8",
+          "got": [
+            "rag_paper.pdf p.3",
+            "rag_paper.pdf p.13",
+            "rag_paper.pdf p.18"
+          ]
+        },
+        {
+          "id": 15,
+          "question": "What are the two RAG formulations that differ in how they use retrieved passages?",
+          "expected": "rag_paper.pdf p.3",
+          "got": [
+            "rag_paper.pdf p.5",
+            "rag_paper.pdf p.7",
+            "rag_paper.pdf p.17"
+          ]
+        },
+        {
+          "id": 18,
+          "question": "Which library and approximation is used to build the MIPS index for retrieval?",
+          "expected": "rag_paper.pdf p.4",
+          "got": [
+            "rag_paper.pdf p.7",
+            "rag_paper.pdf p.3",
+            "rag_paper.pdf p.19"
+          ]
+        },
+        {
+          "id": 19,
+          "question": "How often can RAG answer correctly on Natural Questions when the answer is in none of the retrieved documents?",
+          "expected": "rag_paper.pdf p.6",
+          "got": [
+            "rag_paper.pdf p.4",
+            "rag_paper.pdf p.5",
+            "rag_paper.pdf p.8"
+          ]
+        }
+      ]
+    }
+  ],
+  "best": {
+    "chunk_size": 100,
+    "overlap": 20
+  }
+}
